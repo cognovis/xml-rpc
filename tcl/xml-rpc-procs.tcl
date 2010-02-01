@@ -18,6 +18,10 @@ ad_library {
     @cvs-id $Id$
 }
 
+
+namespace eval xmlrpc-rest {}
+
+
 # setup nsv array to hold procs that are registered for xml-rpc access
 nsv_array set xmlrpc_procs [list]
 
